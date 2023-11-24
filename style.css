@@ -1,0 +1,31 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: skyblue;
+}
+
+.container .btn-start {
+    height: 30px;
+    width: 100px;
+    background: transparent;
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.4s;
+    margin-bottom: 20px;
+}
+
+.container .btn-start:hover {
+    transform: scale(1.2);
+    color: blue;
+}
+
+.container .row {
+    background-color: aliceblue;
+    border-radius: 5px;
+}
+
